@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "fimanistic",
+	"version": "${version}",
+	"name": "Fimanistic",
+	"description": "A lightweight first-launch welcome/tutorial system for modpacks. Author multi-page guides with custom backgrounds, text, images, control changes and mod-setting changes in an in-game WYSIWYG editor. Shows once on first launch; resettable from Mod Menu.",
+	"authors": [
+		"vlensys"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/vlensys/fimanistic"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/fimanistic/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"vlensys.fimanistic.Fimanistic"
+		],
+		"client": [
+			"vlensys.fimanistic.client.FimanisticClient"
+		],
+		"modmenu": [
+			"vlensys.fimanistic.client.FimanisticModMenu"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}
