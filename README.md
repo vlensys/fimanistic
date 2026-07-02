@@ -25,6 +25,10 @@ JSON config file.
   - manage pages, **Preview** the guide, **Save**, and **reset** so it shows again
     on next launch.
 
+## Usage
+
+Refer to the [USAGE.md](https://github.com/vlensys/fimanistic/blob/main/USAGE.md) file
+
 ## Authoring images
 
 Drop `.png` files into `config/fimanistic/images/`. In the editor, add an Image
